@@ -1,0 +1,13 @@
+{
+  "name": "@reactils/create-context-factory",
+  "version": "1.0.0",
+  "exports": "./mod.ts",
+  "license": "MIT",
+  "imports": {
+    "react": "npm:react@^18.3",
+    "@types/react": "npm:@types/react@^18.3"
+  },
+  "publish": {
+    "include": ["mod.ts", "README.md"]
+  }
+}
